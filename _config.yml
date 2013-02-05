@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : 2ndFriend
-tagline: Anonymous, confidential, secure, one-click chat helpline
+tagline: Private and secure, one-click chat helpline
 author :
   #name : Florian Rathgeber
   email : hello@2ndfriend.io
