@@ -254,7 +254,7 @@ header ul {
 
 header li {
 	list-style-type: none;
-  width:132px;
+  width:144px;
   height:15px;
 	margin-bottom: 12px;
 	line-height: 1em;
@@ -295,8 +295,16 @@ a.buttons {
 	height: 30px;
 }
 
+a.email {
+	background: url(../images/email-small.png) no-repeat 1px;
+}
+
 a.github {
 	background: url(../images/octocat-small.png) no-repeat 1px;
+}
+
+a.twitter {
+	background: url(../images/twitter-small.png) no-repeat 1px;
 }
 
 a.buttons:hover {

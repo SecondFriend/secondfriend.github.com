@@ -43,13 +43,18 @@
           <h4>about</h4>
           <ul>
             {% if site.author.email %}
-            <li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
+            <li class="contact"><address>
+              {% if site.author.name %}
+              <span class="author fn n">{{ site.author.name }}</span> -
+              {% endif %}
+              <span class="fn email"><a class="buttons email" href="mailto:{{ site.author.email }}" rel="me">{{ site.author.email }}</a></span>
+            </address></li>
             {% endif %}
             {% if site.author.github %}
-            <li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
+            <li class="github"><a class="buttons github" href="http://github.com/{{ site.author.github }}/" rel="me">{{ site.author.github }}</a></li>
             {% endif %}
             {% if site.author.twitter %}
-            <li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
+            <li class="twitter"><a class="buttons twitter" href="http://twitter.com/{{ site.author.twitter }}/" rel="me">{{ site.author.twitter }}</a></li>
             {% endif %}
             {% if site.author.facebook %}
             <li class="facebook"><a href="http://facebook.com/{{ site.author.facebook }}/" rel="me">facebook.com/{{ site.author.facebook }}</a></li>
