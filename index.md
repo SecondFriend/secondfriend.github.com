@@ -4,6 +4,10 @@ title: 2ndFriend - Private and secure, one-click chat helpline
 ---
 {% include JB/setup %}
 
+<a href="http://www.saferinternet.org.uk/safer-internet-day/2013" title='2ndFriend is supporting Safer Internet Day 2013'>
+  <img width='480' height='60' alt='2ndFriend is supporting Safer Internet Day 2013' src='http://www.saferinternet.org.uk/downloads/Safer_Internet_Day/2013/Banners/Banner-SID2013_468x60.jpg' />
+</a>
+
 ### Welcome to 2ndFriend
 
 *2ndFriend* is a platform that provides a private and secure communication channel between a young person and a trusted counselor from a relevant organisation, via the click of a button. The roots of this project idea were originally conceived at [Hack4Kids](http://2012.euhackathon.eu/) in Brussels in June 2012, and have as since been identified as highly relevant to children, young migrants and other help seekers and capable of filling a gap in services currently available.
