@@ -16,6 +16,10 @@ The service is multi-channel starting from a grass roots level in order to allow
 2. a mobile-friendly website/webapp (native Android / iOS apps are planned)
 3. an SMS gateway
 
+### Learn more
+
+* Read our [information brochure](downloads/2ndfriend_handout.pdf)
+
 ### Try it
 
 * [2ndFriend webapp](https://secondfriend.github.com/chrome-extension)
