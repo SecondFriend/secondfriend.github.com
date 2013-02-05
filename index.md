@@ -1,46 +1,28 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Welcome to 2ndFriend
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+### Welcome to SecondFriend
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+*SecondFriend* is a platform that provides a secure, anonymous, confidential communication channel between a young person and a trusted counselor from relevant organisation, via the click of a button. The roots of this project idea were originally conceived at [Hack4Kids](http://2012.euhackathon.eu/) in Brussels in June 2012, and have as since been identified as highly relevant to children, young migrants and other help seekers and capable of filling a gap in services currently available.
 
-## Update Author Attributes
+*SecondFriend* can act as an umbrella and single access point for a variety of help and support organisations. Organisations can choose to become part of the network, which means they have access to requests coming in from various entry points the platform provides. They can also choose to use the *SecondFriend* platform with their own branding, which allows them to define their own access points e.g. via their own website. Even a combination is possible, where the organisation offers their own branded access point in addition to being part of the *SecondFriend* network accessible through the central entry points.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+The service is multi-channel starting from a grass roots level in order to allow the organisations to compound their reach and impact while enabling young people to connect with the best possible individuals for their circumstance. Our product has several entry points (with prototypes of 1. and 2. already in existence):
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+1. a browser plugin (currently Google Chrome, will be ported to Firefox)
+2. a mobile-friendly website/webapp (native Android / iOS apps are planned)
+3. an SMS gateway that guarantees anonymity
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+### Try it
 
-    $ rm -rf _posts/core-samples
+* [SecondFriend webapp](https://secondfriend.github.com/chrome-extension)
+* [SecondFriend counselor dashboard](https://second-friend.appspot.com)
 
-Here's a sample "posts list".
+### Get involved
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+* [Follow us on twitter](https://twitter.com/Second_Friend)
+* Subscribe to our [Mailing list](https://groups.google.com/d/forum/secondfriend)
+* Check out the [code](https://github.com/SecondFriend)
