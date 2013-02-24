@@ -34,21 +34,19 @@
 
   <body>
     <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}">
-            {% if site.logo %}
-            <img src="{{ site.logo  }}" title="{{ site.title }}" />
-            {% else %}
-            {{ site.title }}
-            {% endif %}
-          </a>
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
-        </div>
+      <div class="container">
+        <a class="brand" href="{{ HOME_PATH }}">
+          {% if site.logo %}
+          <img src="{{ site.logo  }}" title="{{ site.title }}" />
+          {% else %}
+          {{ site.title }}
+          {% endif %}
+        </a>
+        <ul class="nav nav-pills">
+          {% assign pages_list = site.pages %}
+          {% assign group = 'navigation' %}
+          {% include JB/pages_list %}
+        </ul>
       </div>
     </div>
 
