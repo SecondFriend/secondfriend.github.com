@@ -10,6 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : 2ndFriend
+logo : images/2ndfriend.png
 tagline: Private and secure, one-click chat helpline
 author :
   #name : Florian Rathgeber
