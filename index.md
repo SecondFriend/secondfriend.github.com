@@ -1,6 +1,8 @@
 ---
 layout: page
 title: 2ndFriend - Private and secure, one-click chat helpline
+navtitle: Home
+group: navigation
 ---
 {% include JB/setup %}
 
