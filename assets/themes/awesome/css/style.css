@@ -2,8 +2,24 @@
 body {
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.navbar .nav {
-  float: right; }
+
+.block {
+  height: 100%;
+}
+
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+  background: #808080; width: 5px;
+}
+
+.vert-centered {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 /* posts index */
 .post > h3.title {

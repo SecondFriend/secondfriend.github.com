@@ -34,7 +34,7 @@
 
   <body>
     <div class="navbar">
-      <div class="container">
+      <div class="container block">
         <a class="brand" href="{{ HOME_PATH }}">
           {% if site.logo %}
           <img src="{{ site.logo  }}" title="{{ site.title }}" />
@@ -42,11 +42,13 @@
           {{ site.title }}
           {% endif %}
         </a>
-        <ul class="nav nav-pills">
-          {% assign pages_list = site.pages %}
-          {% assign group = 'navigation' %}
-          {% include JB/pages_list %}
-        </ul>
+        <div class="pull-right vert-centered">
+          <ul class="nav nav-pills">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+          </ul>
+        </div>
       </div>
     </div>
 
