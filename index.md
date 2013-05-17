@@ -26,7 +26,7 @@ The service is multi-channel starting from a grass roots level in order to allow
 
 ### Try it
 
-* [2ndFriend webapp](https://secondfriend.github.com/chrome-extension)
+* [2ndFriend webapp](http://2ndfriend.io/chrome-extension)
 * [2ndFriend counselor dashboard](https://second-friend.appspot.com)
 
 ### Get involved
