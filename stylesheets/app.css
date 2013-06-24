@@ -115,6 +115,14 @@ header h2 {
 	margin: 0 0 20px;
 }
 
+.about h3.team {
+	font-size: 34px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 0 0 50px;
+}
+
 .deliver {
 	background: #FFF;
 	padding: 95px 0;
@@ -158,7 +166,7 @@ footer {
 }
 
 footer p {
-	color: #537187;
+	color: #4e5d68;
 }
 
 footer ul {
@@ -215,7 +223,7 @@ footer h3.team {
 }
 
 .footer a {
-	color: #4579a0;
+	color: #30424f;
 	text-decoration: none;
 }
 
@@ -231,24 +239,17 @@ footer h3.team {
 /* Button */
 
 .button {
-	width: 350px;
+	width: 250px;
 	display: block;
 	position: relative;
-	margin: 35px auto 30px;
+	margin: 35px auto 30px auto;
 	text-transform: uppercase;
 	text-align: center;
-	font: 600 13px "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font: 600 14px "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
 	color: #ffffff;
-	padding: 16px 30px;
-	background: -moz-linear-gradient( top, #333845 0%, #313642 20%, #2e323e 60%, #2a2e3a 38%, #2e323e);
-	background: -webkit-gradient( linear, left top, left bottom, from(#373d4a), color-stop(0.20, #363c48), color-stop(0.65, #2e323d), color-stop(0.80, #2b303c), to(#333846));
-	background: -ms-linear-gradient(top, #333845 0%, #313642 20%, #2e323e 60%, #2a2e3a 38%, #2e323e 100%);
-	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#333845", endColorStr="#2e323e");
-	box-shadow: inset 0 0 1px 1px rgba(255,255,255,0.02);
-	border-radius: 4px;
-	border: 1px solid #242630;
-	border-top: 1px solid rgba(255,255,255,0.05);
-	text-shadow: 0px -2px 0px rgba(39,43,53,1);
+	padding: 20px 30px;
+	border-radius: 8px;
+	border: 3px solid #FFF;
 	behavior: url(PIE.php);
 }
 
@@ -275,13 +276,8 @@ footer h3.team {
 
 .button:hover, .button2:hover {
 	position: relative;
-	background: -moz-linear-gradient( top, #4a5164 0%, #444a5b 20%, #3a4150 65%, #393f4f 80%, #404759);
-	background: -webkit-gradient( linear, left top, left bottom, from(#4a5164), color-stop(0.20, #444a5b), color-stop(0.65, #3a4150), color-stop(0.80, #393f4f), to(#404759));
-	background: -ms-linear-gradient(top, #333845 0%, #313642 20%, #2e323e 60%, #2a2e3a 38%, #2e323e 100%);
-	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#333845", endColorStr="#2e323e");
-	border: 1px solid #242630; border-top: 1px solid rgba(255,255,255,0.1);
-	text-shadow: 0px -2px 0px rgba(45,50,61,1);
-	color: #ffffff;
+	background: #d66c67;
+	color: #FFF;
 	behavior: url(PIE.php);
 }
 
@@ -301,7 +297,7 @@ h5 {
 }
 
 header {
-	padding: 10px 0 40px;
+	padding: 20px 0 40px;
 	text-align: center;
 }
 
@@ -311,16 +307,41 @@ header h2 {
 
 .button, .button2 {
 	width: 100%;
-	height: 48px;
-	margin: 40px 0 5px;
+	height: 60x;
+	margin: 30px 0 0px;
+	padding: 20px 0;
 }
 
 #about {
 	padding-bottom: 0px;
 }
 
+.about {
+	padding-top: 50px;
+}
+
+.about h3 {
+	padding-bottom: 30px;
+}
+
 #about p {
 	margin-bottom: 10px;
+}
+
+.member {
+	padding: 40px 0;
+}
+
+.provide h3.team {
+	padding: 20px 0 5px;
+}
+
+.about h3.team {
+  padding: 20px 0 5px;;
+}
+
+footer h3.team {
+	padding: 40px 0 5px;
 }
 
 .navigate {
@@ -362,8 +383,9 @@ ul.experience li:last-child {
 }
 
 .footer {
-	background: #1f2128;
-	margin-top: 20px;
+	background: #0c283d;
+	margin-top: 30px;
+	padding: 30px;
 	border-top: 0;
 	font-size: 14px;
 }

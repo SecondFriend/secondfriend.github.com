@@ -193,7 +193,7 @@ dl.tabs dd:last-child { margin-right: 0; }
 
 /* <nav> */
 
-.top-bar { background: #FFF; height: 150px; line-height: 150px; margin: 0; padding: 18px 0; width: 100%; }
+.top-bar { background: #FFF; height: 150px; line-height: 100px; margin: 0; padding: 18px 0; width: 100%; }
 .top-bar ul.right li a { color: #7aa0bc; }
 .top-bar ul.right li a:hover { color: #7aa0bc; }
 .top-bar ul { display: inline; height: 112px; line-height: 112px; list-style: none; }
@@ -215,27 +215,27 @@ dl.tabs dd:last-child { margin-right: 0; }
 
 /* Mobile Styles */
 
-@media only screen and (max-width: 767px) { .top-bar { height: 85px; margin-bottom: 0; padding: 16px 0; overflow: hidden; /* Override contain to grid stuff for breakpoint */ /* Setting up the sliding area */ /* When the Small Nav is Showing */ }
+@media only screen and (max-width: 767px) { .top-bar { height: 150px;  margin-bottom: 0; padding: 16px 0; overflow: hidden; /* Override contain to grid stuff for breakpoint */ /* Setting up the sliding area */ /* When the Small Nav is Showing */ }
   .top-bar .js-generated { display: block; }
   .top-bar section { left: 0; position: relative; width: auto; -webkit-transition: left 300ms; -moz-transition: left 300ms; -o-transition: left 300ms; transition: left 300ms; }
-  .top-bar ul { width: 100%; min-height: 100%; height: 100%; margin-bottom: 0; display: block; }
+  .top-bar ul { width: 100%; min-height: 100%; height: 100%; margin-bottom: 0; display: block; line-height: 60px; }
   .top-bar ul li { float: none; /* Branding and name */ /* Dropdown Toggle */ /* Divider for breakpoint */ /* Search Overrides for breakpoint size */ /* Dropdown Level 1 */ /* Dropdown Level 2 */ }
   .top-bar ul li.active, .top-bar ul li:hover { background: #; }
   .top-bar ul li.name h1 { line-height: 1; color: #FFF; }
   .top-bar ul li.name h1 a { padding-left: 22.5px; }
   .top-bar ul img { margin-top: 4px; }
   .top-bar ul object { margin-top: 4px; }
-  .top-bar ul li.toggle-topbar { cursor: pointer; display: block; height: 110px; position: absolute; right: 0; top: 0; width: 50%; }
-  .top-bar ul li.toggle-topbar a { content: ""; display: block; width: 0; height: 0; border: solid 8px; border-color: white transparent transparent transparent; padding: 0; position: absolute; top: 50%; right: 22.5px; margin-top: -14px; }
+  .top-bar ul li.toggle-topbar { cursor: pointer; display: block; height: 150px; line-height: 10px; position: absolute; right: 0; top: 0; width: 50%; }
+  .top-bar ul li.toggle-topbar a { content: ""; display: block; width: 0; height: 0; border: solid 8px; border-color: #143654 transparent transparent transparent; padding: 0; position: absolute; top: 50%; right: 22.5px; }
   .top-bar ul li.toggle-topbar:hover { background: ; }
   .top-bar ul li.toggle-topbar a { padding: 0 !important; }
-  .top-bar ul.left, .top-bar ul.right { float: none; width: 100%; margin-bottom: 10px; }
-  .top-bar ul.left > li, .top-bar ul.right > li { display: block; float: none; margin: 0 0 20px 0!important; padding: 5px 0 5px 20px; border-radius: 6px; background: #23252e; }
+  .top-bar ul.left, .top-bar ul.right { float: none; width: 100%; margin-bottom: 0px; }
+  .top-bar ul.left > li, .top-bar ul.right > li { display: block; float: none; margin: 0 0 10px 0!important; padding: 0px 0 0px 20px; border-radius: 6px; }
   .top-bar ul.left > li.has-dropdown .dropdown, .top-bar ul.right > li.has-dropdown .dropdown { left: 100% !important; top: 0; right: auto !important; }
-  .top-bar section > ul li a:not(.button) { padding: 0 !important; display: block; width: 100%; color: #FFF; }
+  .top-bar section > ul li a:not(.button) { padding: 0 !important; display: block; width: 100%; color: #7aa0bc; }
   .top-bar.expanded { height: 100%; }
-  .top-bar.expanded section { margin-top: 20px; }
-  .top-bar.expanded ul li.toggle-topbar a { content: ""; display: block; width: 0; height: 0; border: solid 8px; border-color: transparent transparent rgba(255, 255, 255, 0.5) transparent; top: auto; bottom: 50%; margin-bottom: 0px; } }
+  .top-bar.expanded section { margin-top: 0px; }
+  .top-bar.expanded ul li.toggle-topbar a { content: ""; display: block; width: 0; height: 0; border: solid 8px; border-color: transparent transparent rgba(0, 0, 0, 0.5) transparent; top: auto; bottom: 50%; margin-bottom: 0px; } }
 
 
   .print-only { display: none !important; }
