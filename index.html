@@ -1,48 +1,7 @@
-<!DOCTYPE html>
-
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8" />
-
-  <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>2ndFriend</title>
-
-  <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
-
-  <!-- Included Font Files -->
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-
-  <!-- IE Fix for HTML5 Tags -->
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-</head>
-<body>
-
-<nav class="top-bar" id="top">
-    <div class="row">
-      <ul>
-        <li class="name"><img src="images/2nd_friend_logo.png" alt="2nd Friend"></li>
-        <li class="toggle-topbar"><a href="#"></a></li>
-      </ul>
-      <section>
-        <ul class="right">
-          <li><a href="#about" class="scroll">About</a></li>
-          <li><a href="#services" class="scroll">Team</a></li>
-          <li><a href="#footer" class="scroll">Contact</a></li>
-        </ul>
-      </section>
-    </div>
-</nav>
+---
+layout: default
+title: A secure, anonymous and confidential channel of communication between a young person and a trusted counselor
+---
 
 <header>
 
@@ -76,15 +35,15 @@
     </div>
     <div class="row">
       <div class="four columns">
-        <object data="images/browser-icon.svg" type="image/svg+xml" alt="We are innovators"><img src="images/browser-icon.png" width="125px" height="125px" alt="Browser Plugin"></object>
+        <object data="images/browser-icon.svg" type="image/svg+xml" alt="Browser Plugin"><img src="images/browser-icon.png" width="125px" height="125px" alt="Browser Plugin"></object>
         <h3>Browser Plugin</h3>
       </div>
       <div class="four columns">
-        <object data="images/web-icon.svg" type="image/svg+xml" alt="Innovative design solutions"><img src="images/web-icon.png" width="125px" height="125px" alt="Website"></object>
+        <object data="images/web-icon.svg" type="image/svg+xml" alt="Website"><img src="images/web-icon.png" width="125px" height="125px" alt="Website"></object>
         <h3>Website</h3>
       </div>
       <div class="four columns">
-        <object data="images/sms-icon.svg" type="image/svg+xml" alt="For our customers"><img src="images/smd-icon.png" width="125px" height="125px" alt="SMS"></object>
+        <object data="images/sms-icon.svg" type="image/svg+xml" alt="SMS"><img src="images/smd-icon.png" width="125px" height="125px" alt="SMS"></object>
         <h3>SMS</h3>
       </div>
   </div>
@@ -123,53 +82,3 @@
 	  </div>
 	</div>
 </div><!--end provide-->
-
-<footer id="footer">
-  <div class="row text-center">
-    <h3 class="team">Contact Us</h3>
-  </div>
-  <div class="row text-center">
-    <div class="four columns">
-      <a href="mailto:hello@2ndfriend.io"><object data="images/email-icon.svg" type="image/svg+xml" alt="We are innovators"><img src="images/who-icon.png" width="125px" height="125px" alt="We are innovators"></object>
-      <h3>Email</h3></a>
-    </div>
-    <div class="four columns">
-      <a href="https://twitter.com/Second_Friend/"><object data="images/twitter-icon.svg" type="image/svg+xml" alt="Innovative design solutions"><img src="images/what-icon.png" width="125px" height="125px" alt="Innovative design solutions"></object>
-      <h3>Twitter</h3></a>
-    </div>
-    <div class="four columns">
-      <a href="https://github.com/SecondFriend/"><object data="images/github-icon.svg" type="image/svg+xml" alt="For our customers"><img src="images/why-icon.png" width="125px" height="125px" alt="For our customers"></object>
-      <h3>Git hub</h3></a>
-    </div>
-    </div>
-  </div>
-
-  <div class="row footer">
-    <div class="twelve columns text-center hide-for-small">
-      <p>&copy; 2ndFriend 2013. All rights Reserved.</p>
-    </div>
-    <div class="twelve mobile-four columns show-for-small">
-      <p>&copy; 2ndFriend 2013. All rights Reserved.</p>
-    </div>
-  </div>
-</footer>
-
-  <!-- Included JS Files (Compressed) -->
-  <script src="javascripts/foundation.min.js"></script>
-
-  <!-- Initialize JS Plugins -->
-  <script src="javascripts/app.min.js"></script>
-
-  <!-- Google analytics -->
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-35633433-1']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-</body>
-</html>
