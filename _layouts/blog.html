@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="row">
+  <article>
+  <h3>{{ page.title }}</h3>
+  <h6>Written by <a href="https://twitter.com/{{ page.twitter }}">{{ page.author }}</a> on {{ page.date | date: "%-d %B %Y" }}.</h6>
+
+{{ content }}
+
+  </article>
+</div>
