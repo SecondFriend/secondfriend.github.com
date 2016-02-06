@@ -87,13 +87,13 @@ header h2 {
 	margin: 15px 0 0px;
 	color: #ced0d7;
 	font-size: 15px;
-	behavior: url(PIE.php);
+	behavior: url(PIE.htc);
 }
 
 .navigate:hover {
 	border: 1px solid #676D7A;
 	border-radius: 6px;
-	behavior: url(PIE.php);
+	behavior: url(PIE.htc);
 }
 
 .provide {
@@ -250,7 +250,7 @@ footer h3.team {
 	padding: 20px 30px;
 	border-radius: 8px;
 	border: 3px solid #FFF;
-	behavior: url(PIE.php);
+	behavior: url(PIE.htc);
 }
 
 .button2 {
@@ -271,14 +271,14 @@ footer h3.team {
 	border-radius: 4px; border: 1px solid #242630;
 	border-top: 1px solid rgba(255,255,255,0.05);
 	text-shadow: 0px -2px 0px rgba(39,43,53,1);
-	behavior: url(PIE.php);
+	behavior: url(PIE.htc);
 }
 
 .button:hover, .button2:hover {
 	position: relative;
 	background: #d66c67;
 	color: #FFF;
-	behavior: url(PIE.php);
+	behavior: url(PIE.htc);
 }
 
 @media only screen and (max-width: 767px) {
