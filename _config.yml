@@ -11,9 +11,9 @@ exclude:
 permalink: :title
 
 # Site configuration
-baseurl: http://2ndfriend.io/
-url: http://2ndfriend.io
-domain: 2ndfriend.io
+baseurl: http://secondfriend.github.io/
+url: http://secondfriend.github.io
+domain: secondfriend.github.io
 title: 2ndFriend
 subtitle: A secure, anonymous and confidential channel of communication between a young person and a trusted counselor
 author: Florian Rathgeber
