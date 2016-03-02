@@ -11,8 +11,8 @@ exclude:
 permalink: :title
 
 # Site configuration
-baseurl: http://secondfriend.github.io/
-url: http://secondfriend.github.io
+baseurl: https://secondfriend.github.io/
+url: https://secondfriend.github.io
 domain: secondfriend.github.io
 title: 2ndFriend
 subtitle: A secure, anonymous and confidential channel of communication between a young person and a trusted counselor
